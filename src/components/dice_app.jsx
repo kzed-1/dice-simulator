@@ -85,7 +85,7 @@ class Dice extends React.Component {
 
                     <button
                         className="rollBtn"
-                        onClick={this.rollDice}> ROLL </button>
+                        onClick={this.rollDice}>ROLL</button>
                 </div>
 
                 <Counter faceCounts={this.state.faceCounts} />
