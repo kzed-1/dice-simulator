@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dice-simulator/static/css/main.5a4ccd76.chunk.css",
-    "main.js": "/dice-simulator/static/js/main.073908d1.chunk.js",
-    "main.js.map": "/dice-simulator/static/js/main.073908d1.chunk.js.map",
+    "main.js": "/dice-simulator/static/js/main.8c7973dd.chunk.js",
+    "main.js.map": "/dice-simulator/static/js/main.8c7973dd.chunk.js.map",
     "runtime-main.js": "/dice-simulator/static/js/runtime-main.4c768697.js",
     "runtime-main.js.map": "/dice-simulator/static/js/runtime-main.4c768697.js.map",
     "static/js/2.d06c6689.chunk.js": "/dice-simulator/static/js/2.d06c6689.chunk.js",
     "static/js/2.d06c6689.chunk.js.map": "/dice-simulator/static/js/2.d06c6689.chunk.js.map",
     "index.html": "/dice-simulator/index.html",
-    "precache-manifest.1de7f1f26ab84da8fa7509e163e237b6.js": "/dice-simulator/precache-manifest.1de7f1f26ab84da8fa7509e163e237b6.js",
+    "precache-manifest.c41da18767c2f4cd0eacc66943d8033b.js": "/dice-simulator/precache-manifest.c41da18767c2f4cd0eacc66943d8033b.js",
     "service-worker.js": "/dice-simulator/service-worker.js",
     "static/css/main.5a4ccd76.chunk.css.map": "/dice-simulator/static/css/main.5a4ccd76.chunk.css.map",
     "static/js/2.d06c6689.chunk.js.LICENSE.txt": "/dice-simulator/static/js/2.d06c6689.chunk.js.LICENSE.txt",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.4c768697.js",
     "static/js/2.d06c6689.chunk.js",
     "static/css/main.5a4ccd76.chunk.css",
-    "static/js/main.073908d1.chunk.js"
+    "static/js/main.8c7973dd.chunk.js"
   ]
 }
