@@ -25,7 +25,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin: 0px 100px 0px 100px; */
   width: 25%;
   height: 50%;
 }
@@ -33,7 +32,6 @@
 .rollBtn {
   height: 125px;
   width: 125px;  
-  /* font-size: 50px; */
   margin: 50px 0px 50px 0px;
   background-color: red;
   border: 5px solid black;
@@ -42,10 +40,11 @@
   font-size: 30px;
   font-weight: bolder;
   outline: none;
+  box-shadow: 4px 4px 1px black;
 }
 
-.rollBtn:hover {
-  background-color: red;
+.rollBtn:active {
+  box-shadow: none;
 }
 
 .currentNumericalNumber {
@@ -88,11 +87,6 @@
   width: 75px;
 }
 
-/* .die {
-  width: 50%;
-  height: 75%;
-} */
-
 .diceContainer {
   display: flex;
   justify-content: center;
@@ -111,11 +105,6 @@
 }
 
 .chipsDisplayContainer {
-  /* display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center; */
-  /* min-width: 200px; */
   width: 25%;
   height: 50%;
 }
