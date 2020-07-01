@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af335fc7d7ae3933a2194722fb7ed4c6",
+    "revision": "b82f34aeac23266fa047061c27840134",
     "url": "/dice-simulator/index.html"
   },
   {
-    "revision": "83da4014746ee440a24b",
-    "url": "/dice-simulator/static/css/main.5cd915b2.chunk.css"
+    "revision": "7364a5e6de3a9d7c18ba",
+    "url": "/dice-simulator/static/css/main.fac4b60f.chunk.css"
   },
   {
     "revision": "517500d5d7778693cd54",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dice-simulator/static/js/2.d06c6689.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "83da4014746ee440a24b",
+    "revision": "7364a5e6de3a9d7c18ba",
     "url": "/dice-simulator/static/js/main.ed5d06a0.chunk.js"
   },
   {
