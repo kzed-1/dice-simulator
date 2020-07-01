@@ -1,7 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Dice from './components/dice'
+import Dice from './components/dice_app'
 
 function App() {
   return (
