@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/dice-simulator/static/css/main.85d250a2.chunk.css",
+    "main.js": "/dice-simulator/static/js/main.7692ec22.chunk.js",
+    "main.js.map": "/dice-simulator/static/js/main.7692ec22.chunk.js.map",
+    "runtime-main.js": "/dice-simulator/static/js/runtime-main.4c768697.js",
+    "runtime-main.js.map": "/dice-simulator/static/js/runtime-main.4c768697.js.map",
+    "static/js/2.2601f86c.chunk.js": "/dice-simulator/static/js/2.2601f86c.chunk.js",
+    "static/js/2.2601f86c.chunk.js.map": "/dice-simulator/static/js/2.2601f86c.chunk.js.map",
+    "index.html": "/dice-simulator/index.html",
+    "precache-manifest.91b802b793bd8c6a16e3bd122b62327b.js": "/dice-simulator/precache-manifest.91b802b793bd8c6a16e3bd122b62327b.js",
+    "service-worker.js": "/dice-simulator/service-worker.js",
+    "static/css/main.85d250a2.chunk.css.map": "/dice-simulator/static/css/main.85d250a2.chunk.css.map",
+    "static/js/2.2601f86c.chunk.js.LICENSE.txt": "/dice-simulator/static/js/2.2601f86c.chunk.js.LICENSE.txt",
+    "static/media/dice-six-faces-five.png": "/dice-simulator/static/media/dice-six-faces-five.e1aa13c9.png",
+    "static/media/dice-six-faces-four.png": "/dice-simulator/static/media/dice-six-faces-four.8c0d932b.png",
+    "static/media/dice-six-faces-one.png": "/dice-simulator/static/media/dice-six-faces-one.3baf8c44.png",
+    "static/media/dice-six-faces-six.png": "/dice-simulator/static/media/dice-six-faces-six.113da4a6.png",
+    "static/media/dice-six-faces-three.png": "/dice-simulator/static/media/dice-six-faces-three.796b7fbb.png",
+    "static/media/dice-six-faces-two.png": "/dice-simulator/static/media/dice-six-faces-two.fbbd4305.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c768697.js",
+    "static/js/2.2601f86c.chunk.js",
+    "static/css/main.85d250a2.chunk.css",
+    "static/js/main.7692ec22.chunk.js"
+  ]
+}
