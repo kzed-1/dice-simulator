@@ -51,17 +51,7 @@ class Dice extends React.Component {
 
     rollDice() {
 
-        // const numImages = {
-        //     D1 : '../images/dice-six-faces-one.png',
-        //     D2 : '../images/dice-six-faces-two.png',
-        //     D3 : '../images/dice-six-faces-three.png',
-        //     D4 : '../images/dice-six-faces-four.png',
-        //     D5 : '../images/dice-six-faces-five.png',
-        //     D6 : '../images/dice-six-faces-six.png',
-        // }
-
         const numberImageArray = [D1, D2, D3, D4, D5, D6]
-        const numberImageArray = Object.values(numImages);
         const rolledNumIdx = Math.floor(Math.random() * 6);
         const rolledNum = rolledNumIdx + 1
         const rolledNumFace = numberImageArray[rolledNumIdx];
