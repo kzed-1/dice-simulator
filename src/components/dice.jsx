@@ -1,10 +1,10 @@
 import React from 'react';
-// import D1 from '../images/dice-six-faces-one.png';
-// import D2 from '../images/dice-six-faces-two.png';
-// import D3 from '../images/dice-six-faces-three.png';
-// import D4 from '../images/dice-six-faces-four.png';
-// import D5 from '../images/dice-six-faces-five.png';
-// import D6 from '../images/dice-six-faces-six.png';
+import D1 from '../images/dice-six-faces-one.png';
+import D2 from '../images/dice-six-faces-two.png';
+import D3 from '../images/dice-six-faces-three.png';
+import D4 from '../images/dice-six-faces-four.png';
+import D5 from '../images/dice-six-faces-five.png';
+import D6 from '../images/dice-six-faces-six.png';
 import Table from './table'
 import Counter from './counter'
 
@@ -13,7 +13,7 @@ class Dice extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            currentFace: '../images/dice-six-faces-one.png',
+            currentFace: D1,
             currentNumber: 1,
             rolls: [],
             faceCounts: {
@@ -51,16 +51,16 @@ class Dice extends React.Component {
 
     rollDice() {
 
-        const numImages = {
-            D1 : '../images/dice-six-faces-one.png',
-            D2 : '../images/dice-six-faces-two.png',
-            D3 : '../images/dice-six-faces-three.png',
-            D4 : '../images/dice-six-faces-four.png',
-            D5 : '../images/dice-six-faces-five.png',
-            D6 : '../images/dice-six-faces-six.png',
-        }
+        // const numImages = {
+        //     D1 : '../images/dice-six-faces-one.png',
+        //     D2 : '../images/dice-six-faces-two.png',
+        //     D3 : '../images/dice-six-faces-three.png',
+        //     D4 : '../images/dice-six-faces-four.png',
+        //     D5 : '../images/dice-six-faces-five.png',
+        //     D6 : '../images/dice-six-faces-six.png',
+        // }
 
-        // const numberImageArray = [D1, D2, D3, D4, D5, D6]
+        const numberImageArray = [D1, D2, D3, D4, D5, D6]
         const numberImageArray = Object.values(numImages);
         const rolledNumIdx = Math.floor(Math.random() * 6);
         const rolledNum = rolledNumIdx + 1
@@ -81,7 +81,7 @@ class Dice extends React.Component {
         return (
             <div className="diceAndTableContainer">
                 <div className="diceContainer">
-                    <img className="die" src={process.env.PUBLIC_URL + this.state.currentFace} alt="" />        
+                    <img className="die" src={this.state.currentFace} alt="" />        
                 </div>
 
                 <div className="tableBtnContainer">
